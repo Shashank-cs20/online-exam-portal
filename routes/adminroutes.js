@@ -14,7 +14,7 @@ const {
   getExamById,
   updateExam,
   deleteExam,
-} = require("../controllers/examcontroller");
+} = require("../controllers/examController");
 
 const {
   addQuestion,
