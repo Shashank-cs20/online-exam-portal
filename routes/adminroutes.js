@@ -14,7 +14,7 @@ const {
   getExamById,
   updateExam,
   deleteExam,
-} = require("../controllers/examController");
+} = require("../controllers/examcontroller");
 
 const {
   addQuestion,
@@ -22,14 +22,14 @@ const {
   getQuestionById,
   updateQuestion,
   deleteQuestion,
-} = require("../controllers/questionBankController");
+} = require("../controllers/questionBankcontroller");
 
 const {
   submitAnswer,
   getAllAnswers,
   getAnswerById,
   deleteAnswer,
-} = require("../controllers/answerController");
+} = require("../controllers/answercontroller");
 
 const { verifyAdmin } = require("../middleware/auth");
 
